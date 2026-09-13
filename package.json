@@ -1,0 +1,13 @@
+{
+  "name": "pi-agent-triggers",
+  "version": "0.1.0",
+  "description": "Event-driven external script triggers for Pi agents",
+  "type": "module",
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "scripts": {
+    "test": "node --test tests/pi-agent-triggers.test.mjs"
+  }
+}
